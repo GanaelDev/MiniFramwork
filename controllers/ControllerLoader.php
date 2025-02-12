@@ -52,30 +52,8 @@ class ControllerLoader
     {
         $res = null;
         switch ($nameController) {
-            case 'account':
-                $res = AccountController::class;
-                break;
-            case 'home':
-                $res = HomeController::class;
-                break;
-            case 'login':
-                $res = LoginController::class;
-                break;
-            case 'user':
-                $res = UserController::class;
-                break;
-            case 'logout':
-                $res = LogoutController::class;
-                break;
-            case 'admin':
-                $res = AdminController::class;
-                break;
-            case 'customer':
-                $res = CustomerController::class;
-                break;
-            case 'forfait':
-                $res = ForfaitController::class;
-                break;
+            case 'test':
+                $res = TestController::class;
             default: {
                 throw new Error404NotFound('en');
                 break;

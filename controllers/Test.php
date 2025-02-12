@@ -2,7 +2,7 @@
 
 require_once 'Controller.php';  // Inclure la classe de base
 
-class Test extends Controller {
+class TestController extends Controller {
 
 
     public function __construct($language)
