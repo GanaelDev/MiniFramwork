@@ -2,7 +2,7 @@
 
 require_once 'Controller.php';  // Inclure la classe de base
 require_once("middlewares/Validator.php");
-require_once("data/ReservationDao.php");
+
 class LogoutController extends Controller
 {
 

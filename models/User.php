@@ -1,6 +1,4 @@
 <?php
-require_once("Profile.php");
-require_once("data/ProfileDao.php");
 
 /**
  * Represents a user

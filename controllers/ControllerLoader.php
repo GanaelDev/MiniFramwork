@@ -54,6 +54,12 @@ class ControllerLoader
         switch ($nameController) {
             case 'test':
                 $res = TestController::class;
+            case 'login':
+                $res = LoginController::class;
+                break;
+            case 'logout':
+                $res = LogoutController::class;
+                break;
             default: {
                 throw new Error404NotFound('en');
                 break;

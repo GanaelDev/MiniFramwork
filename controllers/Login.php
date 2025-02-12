@@ -62,7 +62,8 @@ class LoginController extends Controller
     }
     protected function handlerRead($params)
     {
-        $this->sendResponseView('Login', ['language' => 'en'], 'en', 'login.css', false, false);
+       // $this->sendResponseView('Login', ['language' => 'en'], 'en', 'login.css', false, false);
+       echo('TOTO');
     }
 
 
