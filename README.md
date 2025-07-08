@@ -2,7 +2,7 @@
 
 MiniFramwork est un mini framework conçu pour faciliter le développement d'applications web en fournissant une structure de base et des outils essentiels pour démarrer rapidement vos projets.
 
-Mais surtout afin de mieux comprendres les frameworks existant
+Mini projet intéressant surtout afin de mieux comprendres les frameworks existant.
 
 ## Fonctionnalités
 
